@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>My Trip Advisor - 상세보기</title>
+<link href="libs/jquery-ui/jquery-ui.min.css">
+<link href="styles/detail.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="libs/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="scripts/betail.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header" class="inverted">
+			<div>
+				<a href="index.html"><span></span></a>
+				<div class="menu-items right">
+					<a href="mytrip.html">마이트립</a> <img alt=""
+						src="imges/line_maintop_gray.png"> <a href="register.html">회원가입</a>
+				</div>
+			</div>
+		</div>
+		<div id="body" class="detail">
+			<div class="detail-container">
+				<div class="detail-header">
+					<img alt="" src="images/icon_list_location.png">
+					<div class="detail-header-name"></div>
+					|<span class="detail-header-city-name"></span>
+					<button class="btn-register">여행지 등록하기</button>
+				</div>
+				<div id="detail-images"></div>
+				<div class="detail-desc">
+					<div class="detail-title">장소 소개</div>
+					<div class="detail-desc-text"></div>
+				</div>
+				<div class="detail-map">
+					<div class="detail-title">지도</div>
+					<div id="map"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
